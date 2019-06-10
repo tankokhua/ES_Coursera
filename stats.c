@@ -62,7 +62,6 @@ void print_array(unsigned char* array, unsigned int size)
        printf("%03d ", array[i]);
        if ( (i+1)%5==0) { printf("\n"); }
     }
-    printf("\n-------------------\n");
 }
 void sort_array(unsigned char* array, unsigned int size)
 {
